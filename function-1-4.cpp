@@ -19,9 +19,9 @@ void print_scaled_matrix(int threebythree[3][3],int scale){
                        }
     }
 
-    std::cout << "" << threebythree[0][0] << " " << threebythree[0][1] << "" << threebythree[0][2] << std:: endl;
-    std::cout << "" << threebythree[1][0] << " " << threebythree[1][1] << "" << threebythree[1][2] << std:: endl;
-    std::cout << "" << threebythree[2][0] << " " << threebythree[2][1] << "" << threebythree[2][2] << std:: endl;
+    std::cout << "" << threebythree[0][0] << " " << threebythree[0][1] << " " << threebythree[0][2] << std:: endl;
+    std::cout << "" << threebythree[1][0] << " " << threebythree[1][1] << " " << threebythree[1][2] << std:: endl;
+    std::cout << "" << threebythree[2][0] << " " << threebythree[2][1] << " " << threebythree[2][2] << std:: endl;
 
     return;
     
