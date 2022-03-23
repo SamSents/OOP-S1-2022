@@ -23,13 +23,13 @@ for (int i =0 ; i< length; i++) {
 
     for (int i =0 ; i< length; i++) {
         if (Sev[i]%7==0) {
-            cout<<Sev[i];
+            cout<<Sev[i]<<endl;
         }
         }
     
    
 
-    cout<< endl;
+
 
 
 
