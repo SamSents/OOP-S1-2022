@@ -18,12 +18,11 @@ double * addy[5];
 
 for (int i =0 ; i< length; i++) {
     addy[i] = &old_array[i];
-}
-
-
-for (int i =0 ; i< length; i++) {
     new_array[i] = *addy[i];
 }
+
+
+   
 
 
 
