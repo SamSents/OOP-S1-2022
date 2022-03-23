@@ -17,7 +17,7 @@ int main () {
     
     double old_array[5] = {1,2,3,4,5};
     double length = 5;
-    double new_array [5];
+    double new_array [length];
     cpyda(old_array, new_array, length);
     
     
