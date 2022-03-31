@@ -10,31 +10,21 @@
 using namespace std;
 
 
-string get_phase(int temp){
+extern string get_phase(int temp);
+
+int main(){
     
-    string resp;
+    int temp =10;
+    cout << "phase at " << temp << "K is: " << get_phase(temp) << endl;
+    int temp2 =273;
+    cout << "phase at " << temp << "K is: " << get_phase(temp2) << endl;
+    int temp3 =293;
+    cout << "phase at " << temp << "K is: " << get_phase(temp3) << endl;
+    int temp4 =4700;
+    cout << "phase at " << temp << "K is: " << get_phase(temp4) << endl;
+    int temp5 =5000;
+    cout << "phase at " << temp << "K is: " << get_phase(temp5) << endl;
     
-    if (temp <=273) {
-        resp = "ice";
-    }
+    return 0;
     
-    if (temp > 273 && temp <= 373) {
-        resp = "liquid";
-    }
-    
-    if (temp > 373 && temp <= 4700) {
-        resp = "gas";
-    }
-    if (temp > 4700) {
-        resp = "decomposed";
-    }
-    
-   
-    
-    
-    
-    
-    
-    
-    return resp;
 }
