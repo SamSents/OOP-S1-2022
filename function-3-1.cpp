@@ -15,7 +15,7 @@ bool more_positive(int vals[], int length){
     int sump =0;
     int sumn =0;
     
-    for (int i = 0; i < length; i ++) {
+    for (int i = 0; i < length; i++) {
         if (vals[i] < 0) {
             sumn++;
         }
@@ -28,7 +28,7 @@ bool more_positive(int vals[], int length){
         }
     
     
-    if (sumn > sump) {
+    if (sumn >= sump) {
         return false;
     
     }
@@ -37,5 +37,6 @@ bool more_positive(int vals[], int length){
         return true;
     
     }
+    
     
 }
