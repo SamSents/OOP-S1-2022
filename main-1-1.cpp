@@ -18,7 +18,7 @@ int main(){
 
 
     
-    int* pv = pad_array(vals, len);
+    int *pv = pad_array(vals, len);
     
     
     for (int i = 0; i<len+2; i++) {
