@@ -16,13 +16,13 @@ int main(){
     
     int temp =10;
     cout << "phase at " << temp << "K is: " << get_phase(temp) << endl;
-    temp2 =273;
+    int temp2 =273;
     cout << "phase at " << temp << "K is: " << get_phase(temp2) << endl;
-    temp3 =293;
+    int temp3 =293;
     cout << "phase at " << temp << "K is: " << get_phase(temp3) << endl;
-    temp4 =4700;
+    int temp4 =4700;
     cout << "phase at " << temp << "K is: " << get_phase(temp4) << endl;
-    temp5 =5000;
+    int temp5 =5000;
     cout << "phase at " << temp << "K is: " << get_phase(temp5) << endl;
     
     return 0;
