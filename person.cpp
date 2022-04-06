@@ -11,7 +11,7 @@
 
 
 // implementation of the default meerkat constructor
-person::person(std::string name, int salary):myname("n/a"),mysalary(0){};
+person::person(std::string myname, int mysalary):myname("n/a"),mysalary(0){};
 
 
 
