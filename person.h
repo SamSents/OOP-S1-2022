@@ -12,7 +12,7 @@
 #include <string>
 #endif
 
-using namespace std;
+
 
 class person
 
@@ -21,17 +21,17 @@ class person
     
 protected:
     
-    string myname;
+    std::string myname;
     int mysalary;
     
 public:
 
     
     
-    person(string name, int salary) ;
+    person(std::string name, int salary) ;
     
-    void setName(string name);   // change the meerkat's name
-    string getName();
+    void setName(std::string name);   // change the meerkat's name
+    std::string getName();
     void setSalary(int salary);        // change the meerkat's age
     int getSalary();};
 

@@ -8,16 +8,16 @@
 #include "person.h"
 #include <iostream>
 #include <string>
-using namespace std;
+
 
 // implementation of the default meerkat constructor
-person::person(string name, int salary):myname("n/a"),mysalary(0){};
+person::person(std::string name, int salary):myname("n/a"),mysalary(0){};
 
 
 
 
 
-void person::setName(string name)
+void person::setName(std::string name)
 {
     myname = name;
     return;
@@ -33,4 +33,4 @@ void person::setSalary(int salary)
 };
 
 int person::getSalary(){return mysalary;};
-string person::Getname(){return myname;};
+std::string person::getName(){return myname;};
