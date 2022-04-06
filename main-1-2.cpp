@@ -15,28 +15,28 @@ using namespace std;
 int main()
 {
  person tom("TOM", 20000);
-    tom.setname("tom");
-    tom.setsalary(20000);
+    tom.setName("tom");
+    tom.setSalary(20000);
     
-    cout << "person: " << tom.getname() << " makes $" << tom.getsalary() << " annually" << endl;
+    cout << "person: " << tom.getName() << " makes $" << tom.getSalary() << " annually" << endl;
     
     person jen("jen", 3000000);
-       jen.setname("jen");
-       jen.setsalary(3000000);
+       jen.setName("jen");
+       jen.setSalary(3000000);
        
-       cout << "person: " << jen.getname() << " makes $" << jen.getsalary() << " annualy" << endl;
+       cout << "person: " << jen.getName() << " makes $" << jen.getSalary() << " annualy" << endl;
     
     person gianni("gianni", 150000);
-       gianni.setname("gianni");
-       gianni.setsalary(150000);
+       gianni.setName("gianni");
+       gianni.setSalary(150000);
     
-       cout << "person: " << gianni.getname() << " makes $" << gianni.getsalary() << " annualy" << endl;
+       cout << "person: " << gianni.getName() << " makes $" << gianni.getSalary() << " annualy" << endl;
     
     person jackson("jackson", 11000);
-       jackson.setname("jackson");
-       jackson.setsalary(11000);
+       jackson.setName("jackson");
+       jackson.setSalary(11000);
        
-       cout << "person: " << jackson.getname() << " makes $" << jackson.getsalary() <<" annually" << endl;
+       cout << "person: " << jackson.getName() << " makes $" << jackson.getSalary() <<" annually" << endl;
        
    
     

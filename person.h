@@ -30,8 +30,8 @@ public:
     
     person(string name, int salary) ;
     
-    void setname(string name);   // change the meerkat's name
-    string getname();
-    void setsalary(int salary);        // change the meerkat's age
-    int getsalary();};
+    void setName(string name);   // change the meerkat's name
+    string getName();
+    void setSalary(int salary);        // change the meerkat's age
+    int getSalary();};
 

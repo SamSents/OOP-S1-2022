@@ -17,14 +17,14 @@ person::person(string name, int salary):myname("n/a"),mysalary(0){};
 
 
 
-void person::setname(string name)
+void person::setName(string name)
 {
     myname = name;
     return;
 
 }
 
-void person::setsalary(int salary)
+void person::setSalary(int salary)
 {
 
      mysalary = salary;
@@ -32,5 +32,5 @@ void person::setsalary(int salary)
     return;
 };
 
-int person::getsalary(){return mysalary;};
-string person::getname(){return myname;};
+int person::getSalary(){return mysalary;};
+string person::Getname(){return myname;};
