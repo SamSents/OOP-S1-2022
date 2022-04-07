@@ -33,5 +33,8 @@ public:
     void setName(std::string name);   // change the meerkat's name
     std::string getName();
     void setSalary(int salary);        // change the meerkat's age
-    int getSalary();};
+    int getSalary();
+    
+    
+};
 
