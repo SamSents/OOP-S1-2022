@@ -13,9 +13,8 @@
 // implementation of the default meerkat constructor
 person::person(std::string pname, int psalary){
 
-    name = pname;
-salary = psalary
-
+    myname = pname;
+    mysalary = psalary;}
 
 void person::setName(std::string name)
 {
@@ -32,5 +31,5 @@ void person::setSalary(int salary)
     return;
 };
 
-int person::getSalary(){return salary;};
-std::string person::getName(){return name;};
+int person::getSalary(){return mysalary;};
+std::string person::getName(){return myname;};
