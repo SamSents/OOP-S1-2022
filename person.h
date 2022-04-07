@@ -28,7 +28,7 @@ public:
 
     
     
-    person(std::string name, int salary) ;
+    person(std::string pname, int psalary) ;
     
     void setName(std::string name);   // change the meerkat's name
     std::string getName();
