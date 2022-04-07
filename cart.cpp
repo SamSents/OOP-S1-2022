@@ -6,7 +6,6 @@
 //
 
 #include "cart.h"
-#include "meerkat.h"
 #include <string>
 #include <iostream>
 
@@ -25,7 +24,8 @@ cart::cart(){
     
     return;
     
-}
+};
+
 bool cart::addMeerkat(meerkat cat){
     
     meerkat e;
@@ -38,17 +38,17 @@ bool cart::addMeerkat(meerkat cat){
     {
         s2 = cat;
     return true;
-    }
+    
 } else if(s3.getAge()==0 && s3.getName() == "n/a")
 {
     s3 = cat;
 return true;
-}
+
 } else if(s4.getAge()==0 && s4.getName() == "n/a")
 {
     s4 = cat;
 return true;
-}
+
 } else if(s5.getAge()==0 && s5.getName() == "n/a")
 {
     s5 = cat;
@@ -59,7 +59,7 @@ else{
 return false;
     
 }
-}
+};
 
 void cart::emptyCart(){
     
@@ -72,7 +72,7 @@ void cart::emptyCart(){
     s5=e;
     
     return;
-}
+};
 
 void cart::printMeerkats(){
     
@@ -83,4 +83,4 @@ void cart::printMeerkats(){
     cout<<s5.getName()<<" "<< s1.getAge()<<endl;
     
     
-}
+};
