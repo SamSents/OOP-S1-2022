@@ -13,7 +13,7 @@ using namespace std;
 
 int main(void){
     
-    cart c;
+
     
     meerkat meer1;
     meerkat meer2;
@@ -27,16 +27,32 @@ int main(void){
     meer2.setAge(75);
     meer3.setName("john");
     meer3.setAge(37);
-    meer4.setName("jack");
+    meer4.setName("pol");
     meer4.setAge(12);
     meer5.setName("jill");
     meer5.setAge(11);
     
-    bool m1= c.addMeerkat(meer1);
-    bool m2= c.addMeerkat(meer2);
-    bool m3= c.addMeerkat(meer3);
-    bool m4= c.addMeerkat(meer4);
-    bool m5= c.addMeerkat(meer5);
+    cart c;
+    if (c.addMeerkat(meer1)==false) {
+        cout<<"No room available" << endl;
+    }
+    
+    if (c.addMeerkat(meer2)==false) {
+        cout<<"No room available" << endl;
+    }
+
+    if (c.addMeerkat(meer3)==false) {
+        cout<<"No room available" << endl;
+    }
+   
+    if (c.addMeerkat(meer4)==false) {
+        cout<<"No room available" << endl;
+    }
+
+    if (c.addMeerkat(meer5)==false) {
+        cout<<"No room available" << endl;
+    }
+    
     
     
     return 0;

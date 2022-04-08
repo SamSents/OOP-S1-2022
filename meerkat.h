@@ -6,7 +6,7 @@
 #ifndef meerkat_H
 #define meerkat_H
 #include <string>
-#endif
+
 
 using namespace std;
 
@@ -30,3 +30,4 @@ public:
     void setAge(int meerkage);        // change the meerkat's age
     int getAge();};
 
+#endif

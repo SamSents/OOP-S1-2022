@@ -5,8 +5,8 @@
 //  Created by Sam Sentschuk on 6/4/22.
 //
 
-#ifndef cart_hpp
-#define cart_hpp
+#ifndef cart_h
+#define cart_h
 #endif /* cart_hpp */
 #include <iostream>
 #include <iostream>
@@ -14,14 +14,10 @@
 using namespace std;
 
 
-class cart: public meerkat{
-    
-protected:
-    meerkat s1;
-    meerkat s2;
-    meerkat s3;
-    meerkat s4;
-    meerkat s5;
+class cart:
+public meerkat{
+    int i;
+    meerkat meercart[4];
 
 public:
 

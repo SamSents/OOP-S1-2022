@@ -14,73 +14,31 @@ using namespace std;
 
 cart::cart(){
     
-    meerkat e; // empty seats
-    
-    s1=e;
-    s2=e;
-    s3=e;
-    s4=e;
-    s5=e;
-    
-    return;
+    i=0;
     
 };
 
 bool cart::addMeerkat(meerkat cat){
     
-    meerkat e;
-    
-    if(s1.getAge()==0 && s1.getName() == "n/a")
-    {
-        s1 = cat;
+    if (i==4) {
+        return false;
+    } else {
+        meercart[i] = cat;
+        i+= 1;
         return true;
-    } else if(s2.getAge()==0 && s2.getName() == "n/a")
-    {
-        s2 = cat;
-    return true;
-    
-} else if(s3.getAge()==0 && s3.getName() == "n/a")
-{
-    s3 = cat;
-return true;
+    }
 
-} else if(s4.getAge()==0 && s4.getName() == "n/a")
-{
-    s4 = cat;
-return true;
-
-} else if(s5.getAge()==0 && s5.getName() == "n/a")
-{
-    s5 = cat;
-return true;
-}
-else{
-    
-return false;
-    
-}
 };
-
 void cart::emptyCart(){
     
-    meerkat e; // empty seats
-    
-    s1=e;
-    s2=e;
-    s3=e;
-    s4=e;
-    s5=e;
-    
+    i = 0;
     return;
 };
 
 void cart::printMeerkats(){
     
-    cout<<s1.getName()<<" "<< s1.getAge()<<endl;
-    cout<<s2.getName()<<" "<< s1.getAge()<<endl;
-    cout<<s3.getName()<<" "<< s1.getAge()<<endl;
-    cout<<s4.getName()<<" "<< s1.getAge()<<endl;
-    cout<<s5.getName()<<" "<< s1.getAge()<<endl;
-    
-    
+    cout<<meercart[0].getName()<<" "<< meercart[0].getAge()<<endl;
+    cout<<meercart[1].getName()<<" "<< meercart[1].getAge()<<endl;    cout<<meercart[2].getName()<<" "<< meercart[2].getAge()<<endl;
+    cout<<meercart[3].getName()<<" "<< meercart[3].getAge()<<endl;
+    cout<<meercart[4].getName()<<" "<< meercart[4].getAge()<<endl;
 };
